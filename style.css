@@ -254,9 +254,10 @@ main {
 
 .hr-row {
     width: 20%;
+
     margin: auto;
 
-    margin-bottom: 20px;
+    transform: translateY(-10px);
 }
 
 .footer {
@@ -267,7 +268,84 @@ main {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+
+
 }
+
+
+
+
+
+/* hero3  */
+.hero3 {
+    width: 100%;
+    height: 40vh;
+
+    background-color: white;
+}
+
+.hr-hero3 {
+    width: 98%;
+
+    margin: auto;
+    margin-top: 15px;
+}
+
+.hero3 > .wrapper {
+    width: 80%;
+    height: 100%;
+
+    margin: auto;
+} 
+
+.hero3 > .wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper > .left.column {
+    width: 45%;
+    height: 100%;
+
+    float: left;
+}
+
+.wrapper > .right.column {
+    width: 45%;
+    height: 100%;
+
+    float: right;
+}
+
+.montain-img{
+    height: 300px;
+}
+
+.left.column > div {
+    transform: translateX(15%);
+}
+
+.right.column h3 {
+    font-size: x-large;
+
+    margin-bottom: 10px;
+}
+
+.right.column p {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
