@@ -3,3 +3,131 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+    /* HEADER  */
+header {
+    width: 100%;
+    height: 80px;
+
+    background-color: rgb(23, 49, 87);
+}
+
+header > .wrapper {
+    width: 80%;
+    height: 100%;
+
+    margin: auto;
+}
+
+.wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header > .wrapper > * {
+    /* display: inline-block; */
+
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+
+
+
+    /* logo  */
+.wrapper > .logo {
+    padding-top: 10px;
+}
+
+
+
+    /* links  */
+
+.links {
+    margin-left: 10px;
+}
+.wrapper > .links > ul {
+    list-style: none;
+}
+
+.wrapper > .links > ul > * {
+    display: inline-block;
+
+    margin-left: 20px;
+}
+
+.wrapper > .links > ul > li > * {
+    color: white;
+    text-decoration: none;
+
+    font-size: x-small;
+}
+
+.logo , .links {
+    float: left;
+} 
+
+
+
+/* login  */
+.login {
+    float: right;
+}
+
+.wrapper > .login > ul {
+    list-style: none;
+}
+
+.wrapper > .login > ul > * {
+    display: inline-block;
+
+    padding-left: 10px;
+}
+
+.wrapper > .login > ul > li > * {
+    text-decoration: none;
+}
+
+.wrapper > .login > ul > li > a {
+    color: white;
+
+    font-size: x-small;
+}
+
+.green-button {
+    background-color: rgb(138, 185, 56);
+
+    padding: 5px;
+    border-radius: 2px;
+    border-style: none;
+
+    color: white;
+}
+
+.blue-button {
+    background-color: rgb(23, 49, 87);
+
+    padding: 5px;
+    border-radius: 2px;
+    border-style: none;
+    border: 1px solid grey;
+
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
